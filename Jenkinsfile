@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/Yash-BJ17/repo.git'
+                git 'https://github.com/Yash-BJ17/devops-project.git'
             }
         }
 
